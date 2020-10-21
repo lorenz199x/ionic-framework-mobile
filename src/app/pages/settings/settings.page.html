@@ -5,5 +5,9 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-button color='tertiary' (click)="logoutAction()">Logout</ion-button>
+  <ion-item>
+    email: {{displayUserData?.email}}
+    <!-- token: {{displayUserData?.token}} for demo--> 
+  </ion-item>
 </ion-content>
